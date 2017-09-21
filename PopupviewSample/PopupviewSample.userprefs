@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{19022D66-05ED-4793-824E-A2ECE8272096}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PopupviewSample/PopupviewSamplePage.xaml.cs">
+    <Files>
+      <File FileName="PopupviewSample/PopupviewSamplePage.xaml" Line="13" Column="4" />
+      <File FileName="PopupviewSample/PopupviewSamplePage.xaml.cs" Line="6" Column="42" />
+      <File FileName="PopupviewSample/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PopupviewSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D93C4D9C-6BC3-4614-8F47-6511184A1640" />
+  <MultiItemStartupConfigurations />
+</Properties>

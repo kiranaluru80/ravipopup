@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PopupviewSample" x:Class="PopupviewSample.PopupviewSamplePage">
+		<RelativeLayout>
+		   <StackLayout Padding ="20" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1.0}" Spacing="0">
+           <StackLayout x:Name="layoutref" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Entry Placeholder = "sgmlskgksg ssgnsgsg"/>
+            <Button x:Name="pickerRef" HeightRequest="30" WidthRequest="30" BackgroundColor="Red"></Button>
+            </StackLayout>
+		   </StackLayout>
+		   <!-- popup view -->
+		<StackLayout Padding ="10" BackgroundColor="#90000000" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  x:Name="activityIndicatorLayout" IsVisible="false"
+				RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1.0}" 
+				RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1.0}">
+				<StackLayout Padding ="20" BackgroundColor ="Gray" HorizontalOptions = "FillAndExpand" VerticalOptions ="CenterAndExpand" Orientation = "Vertical">
+				<Label Text = "hi" ></Label>
+				<Entry></Entry>
+				<Button x:Name="OkRef" Text = "OK" BackgroundColor = "Red"></Button>
+				<Button x:Name="Cancelref" Text = "Cancel" BackgroundColor = "Red"></Button>
+			   </StackLayout>
+		</StackLayout>
+		<!-- popupview end -->
+		</RelativeLayout>
+</ContentPage>
